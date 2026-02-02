@@ -1,0 +1,170 @@
+# life-engine default task catalog
+# keep this human-editable and boringly simple
+
+# -------------------------
+# DAILY / tiny wins
+# -------------------------
+
+- name: Make the bed
+  category: daily
+  effort: low
+  min_days: 1
+  max_days: 1
+
+- name: Wash dishes
+  category: daily
+  effort: low
+  min_days: 1
+  max_days: 2
+
+- name: 5-minute tidy
+  category: daily
+  effort: low
+  min_days: 1
+  max_days: 1
+
+- name: Drink water and stretch
+  category: body
+  effort: low
+  min_days: 1
+  max_days: 1
+
+- name: Step outside for fresh air
+  category: body
+  effort: low
+  min_days: 1
+  max_days: 1
+
+
+# -------------------------
+# WEEKLY / maintenance
+# -------------------------
+
+- name: Vacuum living space
+  category: home
+  effort: medium
+  min_days: 5
+  max_days: 10
+
+- name: Take out trash + recycling
+  category: home
+  effort: low
+  min_days: 3
+  max_days: 7
+
+- name: Laundry
+  category: home
+  effort: medium
+  min_days: 5
+  max_days: 9
+
+- name: Water plants
+  category: home
+  effort: low
+  min_days: 4
+  max_days: 8
+
+- name: Grocery run
+  category: errands
+  effort: medium
+  min_days: 5
+  max_days: 9
+
+- name: Clean kitchen surfaces
+  category: home
+  effort: low
+  min_days: 3
+  max_days: 7
+
+
+# -------------------------
+# MIND / personal upkeep
+# -------------------------
+
+- name: Journal or reflect for 5 minutes
+  category: mind
+  effort: low
+  min_days: 1
+  max_days: 2
+
+- name: Read 10 pages
+  category: mind
+  effort: low
+  min_days: 1
+  max_days: 2
+
+- name: Inbox sweep
+  category: admin
+  effort: low
+  min_days: 2
+  max_days: 4
+
+- name: Plan tomorrow
+  category: admin
+  effort: low
+  min_days: 1
+  max_days: 2
+
+
+# -------------------------
+# SIDE QUESTS / fun / variety
+# -------------------------
+
+- name: Sketch something small
+  category: creative
+  effort: low
+  min_days: 2
+  max_days: 4
+
+- name: Tinker on a maker project
+  category: creative
+  effort: medium
+  min_days: 3
+  max_days: 7
+
+- name: Go for a short walk
+  category: body
+  effort: low
+  min_days: 2
+  max_days: 3
+
+- name: Text a friend or family member
+  category: social
+  effort: low
+  min_days: 3
+  max_days: 7
+
+- name: Reset desk / workspace
+  category: home
+  effort: low
+  min_days: 2
+  max_days: 5
+
+
+# -------------------------
+# OCCASIONAL / long arc
+# -------------------------
+
+- name: Declutter one drawer or shelf
+  category: home
+  effort: medium
+  min_days: 10
+  max_days: 21
+
+- name: Review finances
+  category: admin
+  effort: medium
+  min_days: 14
+  max_days: 30
+
+- name: Deep clean bathroom
+  category: home
+  effort: medium
+  min_days: 10
+  max_days: 20
+
+- name: Backup important files
+  category: admin
+  effort: medium
+  min_days: 20
+  max_days: 45
